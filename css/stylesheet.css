@@ -1,0 +1,159 @@
+body {
+  margin : 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #f5f6f9;
+}
+ul.navi {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1F1F1F;
+}
+ul.navi li {
+  float: left;
+}
+ul.navi li a, .dropbtn {
+  display: inline-block;
+  color: #C2C2C2;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+ul.navi li a:hover, .dropdown:hover .dropbtn {
+  color: #4d4d4d;
+}
+ul.navi li.dropdown {
+  display: inline-block;
+}
+  ul.navi li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1F1F1F;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  ul.navi li .dropdown-content a {
+    color: #C2C2C2;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  ul.navi li .dropdown-content a:hover {color: #4d4d4d;}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+div.container {
+  width: 80%;
+  /*border: 1px solid gray;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+header {
+  padding: 3em;
+  color: 000000;
+  background-image: url("../image/craft-fig.jpg");
+  background-repeat: no-repeat;
+  clear: left;
+  text-align: center;
+  text-transform: uppercase;
+}
+footer {
+  padding: 2em;
+  color: white;
+  background-image: url("../image/craft-fig footer.jpg");
+  /*background-color: #1F1F1F;*/
+  clear: left;
+  text-align: center;
+  width: 95%;
+}
+
+nav.rt {
+  position: absolute;
+  left : 77%;
+  max-width: 20%;
+  margin-top: 25px;
+  background-color: #fcfcfd;
+  padding: 10px;
+}
+
+nav.rt ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+nav.rt ul a {
+  text-decoration: none;
+}
+
+#content {
+  width: 80%;
+  /*margin-right: 15%;*/
+  /*border-right: 1px solid gray;*/
+  padding-top: 25px;
+  overflow: hidden;
+}
+.post {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin: 10px 0px 30px 0px;
+  background-color: #fcfcfd;
+}
+.post h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color : #4c4c4c;
+}
+.date{
+  text-align: center;
+  font-size: 15px;
+  color: #8c8c8c;
+}
+div.imgc {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+a.link{
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  color: white;
+}
+p.topic , p.topic a{
+  color: #666666;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 30px 0 30px;
+  line-height: 25px;
+}
+.form {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  margin: 10px 0px 30px 0px;
+  background-color: #fcfcfd;
+}
+form{
+  color: #666666;
+  font-size: 15px;
+  padding: 0 30px 0 30px;
+  line-height: 25px;
+}
+#Banner{color:#4C4C4C;}
+audio {width: 200px;}
+p.name{
+  color: #666666;
+  font-size: 15px;
+  text-align: center;
+  padding: 0 30px 0 30px;
+  line-height: 25px;
+}
